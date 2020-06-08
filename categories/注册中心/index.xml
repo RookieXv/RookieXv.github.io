@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>注册中心 on Java那些事儿</title>
+    <link>http://RookieXv.github.io/categories/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/</link>
+    <description>Recent content in 注册中心 on Java那些事儿</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>liuwx8102@163.com (liuwenxu)</managingEditor>
+    <webMaster>liuwx8102@163.com (liuwenxu)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 12 Apr 2020 21:48:31 +0800</lastBuildDate>
+    
+        <atom:link href="http://RookieXv.github.io/categories/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>《Nacos系列》之注册中心</title>
+        <link>http://RookieXv.github.io/posts/2020/04/2.nacos-discovery/</link>
+        <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
+        <author>liuwx8102@163.com (liuwenxu)</author>
+        <atom:modified>Sun, 12 Apr 2020 21:48:31 +0800</atom:modified>
+        <guid>http://RookieXv.github.io/posts/2020/04/2.nacos-discovery/</guid>
+        <description>Nacos注册中心 服务注册中心本质上是为了解耦服务提供者和服务消费者。对于任何一个微服务，原则上都应存在或者支持多个提供者，这是由微服务的分</description>
+        
+        <dc:creator>liuwenxu</dc:creator>
+        <media:content url="http://RookieXv.github.ioimages/liuwenxu/nacos.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Nacos</category>
+            
+          
+            
+              <category>Spring Cloud</category>
+            
+          
+            
+              <category>注册中心</category>
+            
+          
+        
+        
+          
+            
+              <category>Nacos</category>
+            
+          
+            
+              <category>Spring Cloud</category>
+            
+          
+            
+              <category>注册中心</category>
+            
+          
+        
+        
+          
+            
+              <category>Nacos</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

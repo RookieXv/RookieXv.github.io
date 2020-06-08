@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Java8 on Java那些事儿</title>
+    <link>http://RookieXv.github.io/series/java8/</link>
+    <description>Recent content in Java8 on Java那些事儿</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>liuwx8102@163.com (liuwenxu)</managingEditor>
+    <webMaster>liuwx8102@163.com (liuwenxu)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 20 Apr 2020 21:48:31 +0800</lastBuildDate>
+    
+        <atom:link href="http://RookieXv.github.io/series/java8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Java8中计算日期时间差</title>
+        <link>http://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</link>
+        <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
+        <author>liuwx8102@163.com (liuwenxu)</author>
+        <atom:modified>Mon, 20 Apr 2020 21:48:31 +0800</atom:modified>
+        <guid>http://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</guid>
+        <description>在 Java中，我们要获取一个时间段的天数，我们可以使用下面几种方式： Period @since 1.8 Duration @since 1.8 ChronoUnit @since 1.8 一. 参数声明 1 2 LocalDate start = LocalDate.of(2020, 1, 1); LocalDate end = LocalDate.of(2020, 5, 1); 二.Perio</description>
+        
+        <dc:creator>liuwenxu</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Java8</category>
+            
+          
+            
+              <category>时间类</category>
+            
+          
+        
+        
+          
+            
+              <category>Java8</category>
+            
+          
+            
+              <category>时间类</category>
+            
+          
+        
+        
+          
+            
+              <category>Java8</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

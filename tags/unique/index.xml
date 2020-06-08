@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>UNIQUE on Java那些事儿</title>
+    <link>http://RookieXv.github.io/tags/unique/</link>
+    <description>Recent content in UNIQUE on Java那些事儿</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <managingEditor>liuwx8102@163.com (liuwenxu)</managingEditor>
+    <webMaster>liuwx8102@163.com (liuwenxu)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 02 Mar 2020 21:48:31 +0800</lastBuildDate>
+    
+        <atom:link href="http://RookieXv.github.io/tags/unique/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>MySQL允许在唯一索引字段中添加多个NULL值</title>
+        <link>http://RookieXv.github.io/posts/2020/03/mysql%E5%85%81%E8%AE%B8%E5%9C%A8%E5%94%AF%E4%B8%80%E7%B4%A2%E5%BC%95%E5%AD%97%E6%AE%B5%E4%B8%AD%E6%B7%BB%E5%8A%A0%E5%A4%9A%E4%B8%AAnull%E5%80%BC/</link>
+        <pubDate>Mon, 02 Mar 2020 21:48:31 +0800</pubDate>
+        <author>liuwx8102@163.com (liuwenxu)</author>
+        <atom:modified>Mon, 02 Mar 2020 21:48:31 +0800</atom:modified>
+        <guid>http://RookieXv.github.io/posts/2020/03/mysql%E5%85%81%E8%AE%B8%E5%9C%A8%E5%94%AF%E4%B8%80%E7%B4%A2%E5%BC%95%E5%AD%97%E6%AE%B5%E4%B8%AD%E6%B7%BB%E5%8A%A0%E5%A4%9A%E4%B8%AAnull%E5%80%BC/</guid>
+        <description>今天正在吃饭，一个朋友提出了一个他面试中遇到的问题，MySQL允许在唯一索引字段中添加多个NULL值。 这个问题对于我一个非专业DBA来说，也</description>
+        
+        <dc:creator>liuwenxu</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>MySQL</category>
+            
+          
+            
+              <category>UNIQUE</category>
+            
+          
+        
+        
+          
+            
+              <category>MySQL</category>
+            
+          
+            
+              <category>UNIQUE</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>MySQL允许在唯一索引字段中添加多个NULL值</title>
+        <link>http://RookieXv.github.io/posts/2019/12/springboot%E5%90%AF%E5%8A%A8%E5%9B%BE%E6%A1%88/</link>
+        <pubDate>Tue, 03 Dec 2019 21:48:31 +0800</pubDate>
+        <author>liuwx8102@163.com (liuwenxu)</author>
+        <atom:modified>Tue, 03 Dec 2019 21:48:31 +0800</atom:modified>
+        <guid>http://RookieXv.github.io/posts/2019/12/springboot%E5%90%AF%E5%8A%A8%E5%9B%BE%E6%A1%88/</guid>
+        <description>在resources目录下，新建banner.txt，将下面内容拷贝进去，重新启动即可 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 ${AnsiColor.BRIGHT_YELLOW} _ooAoo_ o9999999o</description>
+        
+        <dc:creator>liuwenxu</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>MySQL</category>
+            
+          
+            
+              <category>UNIQUE</category>
+            
+          
+        
+        
+          
+            
+              <category>MySQL</category>
+            
+          
+            
+              <category>UNIQUE</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
