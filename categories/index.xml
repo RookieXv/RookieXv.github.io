@@ -11,10 +11,11 @@
     <description>Recent content in Categories on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <managingEditor>liuwx8102@163.com (liuwenxu)</managingEditor>
-    <webMaster>liuwx8102@163.com (liuwenxu)</webMaster>
+    <managingEditor>mail@liuwenxu.com (Wenxu.Liu)</managingEditor>
+    <webMaster>mail@liuwenxu.com (Wenxu.Liu)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 08 Jun 2020 11:00:31 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="http://RookieXv.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,12 +27,12 @@
         <title>Chocolatey</title>
         <link>http://RookieXv.github.io/categories/chocolatey/</link>
         <pubDate>Mon, 08 Jun 2020 11:00:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/chocolatey/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -44,12 +45,12 @@
         <title>Collection</title>
         <link>http://RookieXv.github.io/categories/collection/</link>
         <pubDate>Sat, 06 Jun 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/collection/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -62,12 +63,12 @@
         <title>java</title>
         <link>http://RookieXv.github.io/categories/java/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/java/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -80,12 +81,12 @@
         <title>Java8</title>
         <link>http://RookieXv.github.io/categories/java8/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/java8/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -98,12 +99,12 @@
         <title>时间类</title>
         <link>http://RookieXv.github.io/categories/%E6%97%B6%E9%97%B4%E7%B1%BB/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/%E6%97%B6%E9%97%B4%E7%B1%BB/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -116,12 +117,12 @@
         <title>Nacos</title>
         <link>http://RookieXv.github.io/categories/nacos/</link>
         <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/nacos/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -134,12 +135,12 @@
         <title>Spring Cloud</title>
         <link>http://RookieXv.github.io/categories/spring-cloud/</link>
         <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/spring-cloud/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -152,12 +153,12 @@
         <title>注册中心</title>
         <link>http://RookieXv.github.io/categories/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/</link>
         <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -170,12 +171,12 @@
         <title>MySQL</title>
         <link>http://RookieXv.github.io/categories/mysql/</link>
         <pubDate>Mon, 02 Mar 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/mysql/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -188,12 +189,12 @@
         <title>UNIQUE</title>
         <link>http://RookieXv.github.io/categories/unique/</link>
         <pubDate>Mon, 02 Mar 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/unique/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -206,12 +207,12 @@
         <title>COUNT</title>
         <link>http://RookieXv.github.io/categories/count/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/count/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -224,12 +225,12 @@
         <title>shell</title>
         <link>http://RookieXv.github.io/categories/shell/</link>
         <pubDate>Tue, 03 Dec 2019 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/shell/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -242,12 +243,12 @@
         <title>Mybatis Plus</title>
         <link>http://RookieXv.github.io/categories/mybatis-plus/</link>
         <pubDate>Thu, 02 May 2019 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/categories/mybatis-plus/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         

@@ -11,10 +11,11 @@
     <description>Recent content in Chocolatey on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <managingEditor>liuwx8102@163.com (liuwenxu)</managingEditor>
-    <webMaster>liuwx8102@163.com (liuwenxu)</webMaster>
+    <managingEditor>mail@liuwenxu.com (Wenxu.Liu)</managingEditor>
+    <webMaster>mail@liuwenxu.com (Wenxu.Liu)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 08 Jun 2020 11:00:31 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="http://RookieXv.github.io/tags/chocolatey/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,10 +27,10 @@
         <title>安装Chocolatey</title>
         <link>http://RookieXv.github.io/posts/2020/06/%E5%AE%89%E8%A3%85chocolatey/</link>
         <pubDate>Mon, 08 Jun 2020 11:00:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Mon, 08 Jun 2020 11:00:31 +0800</atom:modified>
         <guid>http://RookieXv.github.io/posts/2020/06/%E5%AE%89%E8%A3%85chocolatey/</guid>
-        <description>在 windows 下，大家可以使用Chocolatey来快速下载搭建一个开发环境。 Chocolatey 的哲学就是完全用命令行来安装应用程序， 它更像一个包管理工具（背后使用 Nuget</description>
+        <description>在 windows 下，大家可以使用Chocolatey来快速下载搭建一个开发环境。 Chocolatey 的哲学就是完全用命令行来安装应</description>
         
         <dc:creator>liuwenxu</dc:creator>
         <media:content url="http://RookieXv.github.ioimages/liuwenxu/choco.png" medium="image"><media:title type="html">featured image</media:title></media:content>

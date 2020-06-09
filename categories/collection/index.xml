@@ -11,10 +11,11 @@
     <description>Recent content in Collection on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <managingEditor>liuwx8102@163.com (liuwenxu)</managingEditor>
-    <webMaster>liuwx8102@163.com (liuwenxu)</webMaster>
+    <managingEditor>mail@liuwenxu.com (Wenxu.Liu)</managingEditor>
+    <webMaster>mail@liuwenxu.com (Wenxu.Liu)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 06 Jun 2020 21:48:31 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="http://RookieXv.github.io/categories/collection/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,10 +27,10 @@
         <title>集合框架底层数据结构总结</title>
         <link>http://RookieXv.github.io/posts/2020/06/%E9%9B%86%E5%90%88/</link>
         <pubDate>Sat, 06 Jun 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Sat, 06 Jun 2020 21:48:31 +0800</atom:modified>
         <guid>http://RookieXv.github.io/posts/2020/06/%E9%9B%86%E5%90%88/</guid>
-        <description>1. List Arraylist： Object数组、快速随机访问、不安全 Vector： Object数组、安全（synchronized） LinkedL</description>
+        <description>1. List Arraylist： Object数组、快速随机访问、不安全 Vector： Object数组、安全（</description>
         
         <dc:creator>liuwenxu</dc:creator>
         

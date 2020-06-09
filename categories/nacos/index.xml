@@ -11,10 +11,11 @@
     <description>Recent content in Nacos on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <managingEditor>liuwx8102@163.com (liuwenxu)</managingEditor>
-    <webMaster>liuwx8102@163.com (liuwenxu)</webMaster>
+    <managingEditor>mail@liuwenxu.com (Wenxu.Liu)</managingEditor>
+    <webMaster>mail@liuwenxu.com (Wenxu.Liu)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 12 Apr 2020 21:48:31 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="http://RookieXv.github.io/categories/nacos/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,10 +27,10 @@
         <title>《Nacos系列》之安装与启动</title>
         <link>http://RookieXv.github.io/posts/2020/04/1.nacos/</link>
         <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Sun, 12 Apr 2020 21:48:31 +0800</atom:modified>
         <guid>http://RookieXv.github.io/posts/2020/04/1.nacos/</guid>
-        <description>一、Nacos简介 官网介绍：Nacos 致力于帮助您发现、配置和管理微服务。 https://nacos.io/zh-cn/index.html Nacos 提供了一组简单易用的特性集，帮助您快速实现动态服务发现、服务配</description>
+        <description>一、Nacos简介 官网介绍：Nacos 致力于帮助您发现、配置和管理微服务。 https://nacos.io/zh-cn/index.html Nacos 提供了一组简单易用的特</description>
         
         <dc:creator>liuwenxu</dc:creator>
         <media:content url="http://RookieXv.github.ioimages/liuwenxu/nacos.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -70,10 +71,10 @@
         <title>《Nacos系列》之持久化</title>
         <link>http://RookieXv.github.io/posts/2020/04/5.nacos-mysql/</link>
         <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Sun, 12 Apr 2020 21:48:31 +0800</atom:modified>
         <guid>http://RookieXv.github.io/posts/2020/04/5.nacos-mysql/</guid>
-        <description>Nacos持久化 Nacos使用的是内嵌数据库 Derby (Apache Derby)，目前Nacos仅支持Mysql数据库，且版本要求：5.6.5+ 1、准备环境 Windows 10</description>
+        <description>Nacos持久化 Nacos使用的是内嵌数据库 Derby (Apache Derby)，目前Nacos仅支持Mysql数据库，</description>
         
         <dc:creator>liuwenxu</dc:creator>
         <media:content url="http://RookieXv.github.ioimages/liuwenxu/nacos.png" medium="image"><media:title type="html">featured image</media:title></media:content>
@@ -114,10 +115,10 @@
         <title>《Nacos系列》之注册中心</title>
         <link>http://RookieXv.github.io/posts/2020/04/2.nacos-discovery/</link>
         <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Sun, 12 Apr 2020 21:48:31 +0800</atom:modified>
         <guid>http://RookieXv.github.io/posts/2020/04/2.nacos-discovery/</guid>
-        <description>Nacos注册中心 服务注册中心本质上是为了解耦服务提供者和服务消费者。对于任何一个微服务，原则上都应存在或者支持多个提供者，这是由微服务的分</description>
+        <description>Nacos注册中心 服务注册中心本质上是为了解耦服务提供者和服务消费者。对于任何一个微服务，原则上都应</description>
         
         <dc:creator>liuwenxu</dc:creator>
         <media:content url="http://RookieXv.github.ioimages/liuwenxu/nacos.png" medium="image"><media:title type="html">featured image</media:title></media:content>

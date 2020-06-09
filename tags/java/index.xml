@@ -11,10 +11,11 @@
     <description>Recent content in Java on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <managingEditor>liuwx8102@163.com (liuwenxu)</managingEditor>
-    <webMaster>liuwx8102@163.com (liuwenxu)</webMaster>
+    <managingEditor>mail@liuwenxu.com (Wenxu.Liu)</managingEditor>
+    <webMaster>mail@liuwenxu.com (Wenxu.Liu)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Mon, 20 Apr 2020 21:48:31 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="http://RookieXv.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,10 +27,10 @@
         <title>Java中各种时间类型相互转换</title>
         <link>http://RookieXv.github.io/posts/2020/04/java%E4%B8%AD%E5%90%84%E7%A7%8D%E6%97%B6%E9%97%B4%E7%B1%BB%E5%9E%8B%E7%9B%B8%E4%BA%92%E8%BD%AC%E6%8D%A2/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Mon, 20 Apr 2020 21:48:31 +0800</atom:modified>
         <guid>http://RookieXv.github.io/posts/2020/04/java%E4%B8%AD%E5%90%84%E7%A7%8D%E6%97%B6%E9%97%B4%E7%B1%BB%E5%9E%8B%E7%9B%B8%E4%BA%92%E8%BD%AC%E6%8D%A2/</guid>
-        <description>Java中各种时间类型相互转换 参数声明： 1 2 3 4 5 6 7 final Date date = new Date(); final Timestamp timestamp = new Timestamp(date.getTime()); final Calendar calendar = Calendar.getInstance(); final Instant instant = Instant.now(); final LocalDateTime localDateTime = LocalDateTime.now(); final ZonedDateTime zonedDateTime = ZonedDateTime.now(); final LocalDate localDate = LocalDate.now(); 转Insta</description>
+        <description>Java中各种时间类型相互转换 参数声明： 1 2 3 4 5 6 7 final Date date = new Date(); final Timestamp timestamp = new Timestamp(date.getTime()); final Calendar calendar = Calendar.getInstance(); final Instant instant = Instant.now(); final</description>
         
         <dc:creator>liuwenxu</dc:creator>
         
@@ -68,10 +69,10 @@
         <title>获取指定时间内指定星期几的所有日期</title>
         <link>http://RookieXv.github.io/posts/2020/04/%E6%97%B6%E9%97%B4%E6%AE%B5%E5%91%A8%E5%87%A0%E7%9A%84%E6%97%A5%E6%9C%9F/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Mon, 20 Apr 2020 21:48:31 +0800</atom:modified>
         <guid>http://RookieXv.github.io/posts/2020/04/%E6%97%B6%E9%97%B4%E6%AE%B5%E5%91%A8%E5%87%A0%E7%9A%84%E6%97%A5%E6%9C%9F/</guid>
-        <description>输入开始时间，截止时间，星期几，三个参数，获取这两个日期之间指定星期几的日期 一. 参数声明： 1 2 3 LocalDate start = LocalDate.of(2020, 4, 1); LocalDate end = LocalDate.of(2020, 5, 1); int week = 1; 二. 测试： 1</description>
+        <description>输入开始时间，截止时间，星期几，三个参数，获取这两个日期之间指定星期几的日期 一. 参数声明： 1 2 3 LocalDate start</description>
         
         <dc:creator>liuwenxu</dc:creator>
         

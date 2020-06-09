@@ -11,10 +11,11 @@
     <description>Recent content in Series on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <managingEditor>liuwx8102@163.com (liuwenxu)</managingEditor>
-    <webMaster>liuwx8102@163.com (liuwenxu)</webMaster>
+    <managingEditor>mail@liuwenxu.com (Wenxu.Liu)</managingEditor>
+    <webMaster>mail@liuwenxu.com (Wenxu.Liu)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 06 Jun 2020 21:48:31 +0800</lastBuildDate>
+    <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="http://RookieXv.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,12 +27,12 @@
         <title>Collection</title>
         <link>http://RookieXv.github.io/series/collection/</link>
         <pubDate>Sat, 06 Jun 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/series/collection/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -44,12 +45,12 @@
         <title>Java8</title>
         <link>http://RookieXv.github.io/series/java8/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/series/java8/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -62,12 +63,12 @@
         <title>Nacos</title>
         <link>http://RookieXv.github.io/series/nacos/</link>
         <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/series/nacos/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         
@@ -80,12 +81,12 @@
         <title>Mybatis Plus</title>
         <link>http://RookieXv.github.io/series/mybatis-plus/</link>
         <pubDate>Thu, 02 May 2019 21:48:31 +0800</pubDate>
-        <author>liuwx8102@163.com (liuwenxu)</author>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
         <guid>http://RookieXv.github.io/series/mybatis-plus/</guid>
         <description></description>
         
-        <dc:creator>liuwenxu</dc:creator>
+        <dc:creator>Wenxu.Liu</dc:creator>
         
         
         

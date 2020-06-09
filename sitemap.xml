@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://RookieXv.github.io/showcase/github/hugo_blog_repo/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://RookieXv.github.io/showcase/github/sc_builder_repo/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://RookieXv.github.io/</loc>
     <lastmod>2020-06-08T11:00:31+08:00</lastmod>
   </url>
@@ -188,6 +198,21 @@
   </url>
   
   <url>
+    <loc>http://RookieXv.github.io/showcase/github/</loc>
+    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://RookieXv.github.io/showcase/tools/</loc>
+    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://RookieXv.github.io/showcase/</loc>
+    <lastmod>2020-01-19T15:43:38+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://RookieXv.github.io/tags/count/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url>
@@ -223,13 +248,13 @@
   </url>
   
   <url>
-    <loc>http://RookieXv.github.io/archive/</loc>
+    <loc>http://RookieXv.github.io/gallery/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://RookieXv.github.io/tools/</loc>
-    <lastmod>2019-10-09T11:44:14+09:00</lastmod>
+    <loc>http://RookieXv.github.io/archive/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
   </url>
   
   <url>
