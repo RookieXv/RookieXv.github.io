@@ -13,14 +13,14 @@
 
 <script defer src="/js/lazysizes.min.5e11d056075a05065b9c0bfec44084a113fc2976c2952ec804dedb61c7662db9.js"></script>
 
-<script defer src="/js/fuse.min.c4bee9a8d44273d6154fe86006923d4131eb2e8069d8897687137c6f37f553e3.js"></script>
+<script defer src="/js/fuse.min.ab4be835038bf2b719e21fad4903dfd5a920614043bf5d3a227b366aeb8d42b1.js"></script>
 
 <script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
 
 <script defer src="/js/helper/fadeinout.min.93a331f96194789a542f33690bbe4f0c102c7e78ffc018217f5a1c33010bad91.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
-  
+
 <script>
   "use strict";
 
@@ -114,7 +114,7 @@
 
 
     
-    document.querySelectorAll('.tab') ? 
+    document.querySelectorAll('.tab') ?
     document.querySelectorAll('.tab').forEach(function(elem, idx) {
       var containerId = elem.getAttribute('id');
       var containerElem = elem;
@@ -143,7 +143,7 @@
 
 
     
-    document.querySelectorAll('.codetab') ? 
+    document.querySelectorAll('.codetab') ?
     document.querySelectorAll('.codetab').forEach(function(elem, idx) {
       var containerId = elem.getAttribute('id');
       var containerElem = elem;
@@ -239,7 +239,7 @@
     var tocFolding = JSON.parse("true");
     
     var tocLevels = JSON.parse("[\"h2\",\"h3\",\"h4\"]");
-    
+
     if (tocLevels) {
       tocLevels = tocLevels.toString();
     } else {
@@ -274,10 +274,10 @@
       });
     }) : null;
 
-    
+
     window.onscroll = function () {
       scrollFunction();
-      
+
       var st = window.pageYOffset || document.documentElement.scrollTop;
       if (st > lastScrollTop) { 
         if (st < 250) {
@@ -289,7 +289,7 @@
         if (st < 45) {
           return null;
         }
-        
+
         if (!navbar.classList.contains('navbar--hide')) {
           navbar.classList.add('navbar--hide');
         } else if (navbar.classList.contains('navbar--show')) {
@@ -306,7 +306,7 @@
               if (notAllowedTitleIds && notAllowedTitleIds.includes(elem.getAttribute('id'))) {
                 return null;
               }
-              
+
               if (document.documentElement.scrollTop >= elem.offsetTop) {
                 if (tableOfContentsElem) {
                   var id = elem.getAttribute('id');
@@ -317,7 +317,7 @@
                     tocElem.querySelector('a[href="#' + id + '"]').classList.add('active') : null;
 
                   if (false === tocFolding) {
-                    
+
                   } else {
                     tableOfContentsElem.querySelectorAll('ul') ?
                       tableOfContentsElem.querySelectorAll('ul').forEach(function (rootUl) {
@@ -372,7 +372,7 @@
               if (toggleTocElem && !toggleTocElem.checked) {
                 return null;
               }
-              
+
               if (notAllowedTitleIds && notAllowedTitleIds.includes(elem.getAttribute('id'))) {
                 return null;
               }
@@ -387,7 +387,7 @@
                     tocElem.querySelector('a[href="#' + id + '"]').classList.add('active') : null;
 
                   if (false === tocFolding) {
-                    
+
                   } else {
                     tableOfContentsElem.querySelectorAll('ul') ?
                       tableOfContentsElem.querySelectorAll('ul').forEach(function (rootUl) {
@@ -418,7 +418,7 @@
               tocFlexboxOuter.classList.add('hide');
             }
           }
-          
+
         }
 
         if (tableOfContentsElem && document.documentElement.scrollTop < 250) {
@@ -476,11 +476,11 @@
         metaThemeColor.setAttribute('content', '#eee8d5');
         metaMsapplicationNavbuttonColor.setAttribute('content', '#eee8d5');
         metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#eee8d5');
-      } 
+      }
     }
-    
+
     if (localTheme) {
-      selectThemeItemElem ? 
+      selectThemeItemElem ?
       selectThemeItemElem.forEach(function (elem) {
         if (elem.text.trim() === localTheme) {
           elem.classList.add('is-active');
@@ -494,7 +494,7 @@
       setMetaColor(rootEleme.className);
     }
 
-    selectThemeItemElem ? 
+    selectThemeItemElem ?
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
         var selectedThemeVariant = e.target.text.trim();
@@ -555,7 +555,7 @@
     var searchResults = null;
     var searchMenu = null;
     var searchText = null;
-    
+
     
     var enableSearchHighlight = JSON.parse("true");
     
@@ -567,7 +567,7 @@
 
     (function initFuse() {
       var xhr = new XMLHttpRequest();
-      xhr.open('GET', permalink + "index.json");
+      xhr.open('GET', permalink + "index.zh.md.json");
       xhr.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
       xhr.onload = function () {
         if (xhr.status === 200) {
@@ -593,7 +593,7 @@
     function makeLi(ulElem, obj) {
       var li = document.createElement('li');
       li.className = 'search-result__item';
-      
+
       var a = document.createElement('a');
       a.innerHTML = obj.title;
       a.setAttribute('class', 'search-result__item--title');
@@ -606,7 +606,7 @@
       } else if (obj.content) {
         descDiv.innerHTML = obj.content.substring(0, 225);
       }
-      
+
       li.appendChild(a);
       li.appendChild(descDiv);
       ulElem.appendChild(li);
@@ -630,7 +630,7 @@
             a.setAttribute('class', 'search-result__item--title');
             a.setAttribute('href', obj.item.uri);
           }
-          
+
           if ('description' === obj.matches[i].key) {
             descDiv = document.createElement('div');
             descDiv.setAttribute('class', 'search-result__item--desc');
@@ -668,7 +668,7 @@
       searchResults = document.getElementById('search-results');
       searchMenu = document.getElementById('search-menu');
       searchResults.setAttribute('class', 'dropdown is-active');
-      
+
       var ul = document.createElement('ul');
       ul.setAttribute('class', 'dropdown-content search-content');
 
@@ -708,7 +708,7 @@
           searchMenu.lastChild
         );
       }
-      
+
       searchMenu.appendChild(ul);
     }
 
@@ -733,7 +733,7 @@
           var titleDiv = document.createElement('div');
           titleDiv.innerHTML = result.item.title;
           titleDiv.setAttribute('class', 'menu-item__title');
-          
+
           if (result.matches && result.matches.length) {
             for (var i = 0; i < result.matches.length; i++) {
               if ('title' === result.matches[i].key) {
@@ -762,7 +762,7 @@
                 }
               }
             }
-            
+
             li.appendChild(titleDiv);
             if (descDiv) {
               li.appendChild(descDiv);
@@ -807,7 +807,7 @@
       while (wrap.firstChild) {
         wrap.removeChild(wrap.firstChild)
       }
-      searchResults.appendChild(content);      
+      searchResults.appendChild(content);
     }
 
     function renderSearchHighlightResultsMobile(searchText, results) {
@@ -829,7 +829,7 @@
           var titleDiv = document.createElement('div');
           titleDiv.innerHTML = result.item.title;
           titleDiv.setAttribute('class', 'mobile-search__item--title');
-          
+
           if (result.matches && result.matches.length) {
             for (var i = 0; i < result.matches.length; i++) {
               if ('title' === result.matches[i].key) {
@@ -858,7 +858,7 @@
                 }
               }
             }
-            
+
             li.appendChild(titleDiv);
             if (descDiv) {
               li.appendChild(descDiv);
@@ -889,7 +889,7 @@
         if (region[0] === region[1]) {
           return null;
         }
-        
+
         content += '' +
           text.substring(nextUnhighlightedRegionStartingIndex, region[0]) +
           '<span class="search__highlight">' +
@@ -919,7 +919,7 @@
 
       searchText = e.target.value;
       var results = fuse.search(e.target.value);
-      
+
       if (searchResultPosition === "main") {
         if (enableSearchHighlight) {
           renderSearchHighlightResultsMain(searchText, results);
@@ -932,7 +932,7 @@
         } else {
           renderSearchResultsSide(searchText, results);
         }
-        
+
         var dropdownItems = searchResultsContainer.querySelectorAll('.dropdown-item');
         dropdownItems ? dropdownItems.forEach(function(item) {
           item.addEventListener('mousedown', function(e) {
@@ -942,7 +942,7 @@
       }
     }) : null;
 
-    searchElem ? 
+    searchElem ?
     searchElem.addEventListener('blur', function() {
       if (window.innerWidth < 770) {
         return null;
@@ -950,7 +950,7 @@
       searchResultsContainer ? searchResultsContainer.setAttribute('class', 'dropdown') : null;
     }) : null;
 
-    searchElem ? 
+    searchElem ?
     searchElem.addEventListener('click', function(e) {
       if (window.innerWidth < 770) {
         return null;
@@ -991,7 +991,7 @@
     var items = null;
     var searchContainerMaxHeight = 350;
 
-    searchElem ? 
+    searchElem ?
     searchElem.addEventListener('keydown', function(e) {
       if (window.innerWidth < 770) {
         return null;
@@ -1008,7 +1008,7 @@
       if (!items || !items.length) {
         return null;
       }
-      
+
       if (e.key === 'ArrowDown' || keyCode === 40) {
         if (activeIndex === null) {
           activeIndex = 0;
@@ -1034,7 +1034,7 @@
           activeIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
         }
         items[activeIndex].classList.add('is-active');
-        
+
         let overflowedPixel = items[activeIndex].offsetTop + items[activeIndex].clientHeight - searchContainerMaxHeight;
         if (overflowedPixel < 0) {
           document.querySelector(".search-content").scrollTop -= items[activeIndex].getBoundingClientRect().height;
@@ -1053,7 +1053,7 @@
       }
     }) : null;
 
-    searchMobile ? 
+    searchMobile ?
     searchMobile.addEventListener('input', function(e) {
       if (!e.target.value) {
         let wrap = document.getElementById('search-mobile-results');
@@ -1088,7 +1088,7 @@
       mobileSearchClassElem.style.display = 'none';
     }
 
-    mobileSearchBtnElem ? 
+    mobileSearchBtnElem ?
     mobileSearchBtnElem.addEventListener('click', function () {
       if (mobileSearchContainer) {
         mobileSearchContainer.style.display = 'block';
@@ -1103,7 +1103,7 @@
       }
     }) : null;
 
-    mobileSearchCloseBtnElem ? 
+    mobileSearchCloseBtnElem ?
     mobileSearchCloseBtnElem.addEventListener('click', function() {
       if (mobileSearchContainer) {
         mobileSearchContainer.style.display = 'none';
@@ -1112,7 +1112,7 @@
       if (mobileSearchInputElem) {
         mobileSearchInputElem.value = '';
       }
-      
+
       if (mobileSearchResultsElem) {
         while (mobileSearchResultsElem.firstChild) {
           mobileSearchResultsElem.removeChild(mobileSearchResultsElem.firstChild);
@@ -1131,7 +1131,7 @@
         if (mobileSearchContainer) {
           mobileSearchContainer.style.display = 'none';
         }
-        
+
         if (mobileSearchInputElem) {
           mobileSearchInputElem.value = '';
         }
@@ -1154,7 +1154,7 @@
       var searchBody = document.querySelector('.search-result__body');
       var originUl = searchBody.querySelector('ul');
       var ul = document.createElement('ul');
-      
+
       if (!searchText) {
         searchResult ? searchResult.setAttribute('data-display', 'none') : null;
         summaryContainer ? summaryContainer.setAttribute('data-display', 'block') : null;
@@ -1196,6 +1196,7 @@
   
   });
 </script>
+
     
 
 
@@ -1409,7 +1410,7 @@
           <a href="/about">关于</a>
         </li>
       
-      
+
     
       
       
@@ -1421,7 +1422,7 @@
           <a href="/archive">归档</a>
         </li>
       
-      
+
     
       
       
@@ -1433,7 +1434,7 @@
           <a href="/posts">博文</a>
         </li>
       
-      
+
     
       
       
@@ -1445,7 +1446,7 @@
           <a href="/gallery">图库</a>
         </li>
       
-      
+
     
       
       
@@ -1457,7 +1458,7 @@
           <a href="/showcase">&lt;&frasl;&gt;</a>
         </li>
       
-      
+
     
       
       
@@ -1469,7 +1470,7 @@
           <a href="https://pandao.github.io/editor.md/">Markdown</a>
         </li>
       
-      
+
     
 
     
@@ -1493,6 +1494,7 @@
     
   </ul>
 </div>
+
   <div class="navbar__menu">
   
 <div class="theme" data-ani="true">
@@ -1579,6 +1581,7 @@
   
   
 </div>
+
 </nav>
             
             
@@ -1889,6 +1892,56 @@
 </div>
 
     
+<div class="donation">
+  <div class="donation__message">
+    您的鼓励是我最大的动力
+  </div>
+  <div class="donation__icons">
+    
+      
+        
+          <div class="donation__item donation__dropup" title="alipay" aria-label="alipay" data-type="donation">
+            <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="35" height="35"><path fill="#00A1E9" d="M 5 5 L 5 27 L 27 27 L 27 5 L 5 5 z M 7 7 L 25 7 L 25 18.931641 L 18.929688 16.775391 C 19.528069 15.604874 19.872428 14.319295 20 13 L 17 13 L 17 12 L 21 12 L 21 11 L 17 11 L 17 9 L 15 9 L 15 11 L 10 11 L 10 12 L 15 12 L 15 13 L 11 13 L 11 14 L 18.042969 14 C 17.874523 14.798238 17.595556 15.553113 17.226562 16.220703 C 17.067744 16.141588 16.909631 16.060926 16.748047 15.988281 C 16.275047 15.769281 15.785203 15.594937 15.283203 15.460938 C 14.281203 15.185937 13.248844 15.029953 12.214844 15.001953 C 11.955844 14.994953 11.6955 15.005813 11.4375 15.007812 C 11.1535 15.021812 10.861031 15.045953 10.582031 15.126953 C 10.020031 15.271953 9.5026563 15.571516 9.0976562 15.978516 C 8.2506563 16.776516 7.9028281 17.969375 8.0488281 19.109375 C 8.1738281 20.285375 9.0837031 21.364953 10.220703 21.751953 C 10.770703 21.960953 11.416641 22.039422 11.931641 21.982422 C 12.202641 21.976422 12.472188 21.956297 12.742188 21.904297 C 13.013188 21.866297 13.281922 21.822234 13.544922 21.740234 C 14.607922 21.469234 15.606062 20.931031 16.414062 20.207031 C 16.818062 19.845031 17.187578 19.452297 17.517578 19.029297 C 17.673578 18.811297 17.84375 18.601328 17.96875 18.361328 C 17.986598 18.324421 17.999073 18.284503 18.017578 18.248047 L 25 22.044922 L 25 25 L 7 25 L 7 7 z M 11.427734 16.341797 L 12.109375 16.388672 C 13.020375 16.473672 13.909156 16.711516 14.785156 16.978516 C 15.220156 17.122516 15.651125 17.283172 16.078125 17.451172 C 16.169125 17.488172 16.257656 17.530313 16.347656 17.570312 C 16.265656 17.685312 16.183703 17.800109 16.095703 17.912109 C 15.835703 18.249109 15.532328 18.544703 15.236328 18.845703 C 14.636328 19.436703 13.928094 19.918141 13.121094 20.244141 C 12.921094 20.332141 12.710094 20.385547 12.496094 20.435547 C 12.284094 20.499547 12.06575 20.534594 11.84375 20.558594 C 11.37975 20.644594 11.008375 20.634062 10.609375 20.539062 C 9.834375 20.367062 9.1521562 19.755547 9.0351562 18.935547 C 8.8801563 18.121547 9.246 17.233016 9.875 16.791016 C 10.182 16.559016 10.534719 16.428234 10.886719 16.365234 C 11.064719 16.330234 11.241734 16.336797 11.427734 16.341797 z"/></svg>
+            <div class="donation__dropup--content">
+              <img data-src="/images/liuwenxu/alipay_qrcode.png" alt="alipay QR Code" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload"/>
+            </div>
+          </div>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <div class="donation__item donation__dropup" title="qq" aria-label="qq" data-type="donation">
+            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1591761873178" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1146" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"></style></defs><path d="M511.09761 957.257c-80.159 0-153.737-25.019-201.11-62.386-24.057 6.702-54.831 17.489-74.252 30.864-16.617 11.439-14.546 23.106-11.55 27.816 13.15 20.689 225.583 13.211 286.912 6.767v-3.061z" fill="#FAAD08" p-id="1147"></path><path d="M496.65061 957.257c80.157 0 153.737-25.019 201.11-62.386 24.057 6.702 54.83 17.489 74.253 30.864 16.616 11.439 14.543 23.106 11.55 27.816-13.15 20.689-225.584 13.211-286.914 6.767v-3.061z" fill="#FAAD08" p-id="1148"></path><path d="M497.12861 474.524c131.934-0.876 237.669-25.783 273.497-35.34 8.541-2.28 13.11-6.364 13.11-6.364 0.03-1.172 0.542-20.952 0.542-31.155C784.27761 229.833 701.12561 57.173 496.64061 57.162 292.15661 57.173 209.00061 229.832 209.00061 401.665c0 10.203 0.516 29.983 0.547 31.155 0 0 3.717 3.821 10.529 5.67 33.078 8.98 140.803 35.139 276.08 36.034h0.972z" fill="#000000" p-id="1149"></path><path d="M860.28261 619.782c-8.12-26.086-19.204-56.506-30.427-85.72 0 0-6.456-0.795-9.718 0.148-100.71 29.205-222.773 47.818-315.792 46.695h-0.962C410.88561 582.017 289.65061 563.617 189.27961 534.698 185.44461 533.595 177.87261 534.063 177.87261 534.063 166.64961 563.276 155.56661 593.696 147.44761 619.782 108.72961 744.168 121.27261 795.644 130.82461 796.798c20.496 2.474 79.78-93.637 79.78-93.637 0 97.66 88.324 247.617 290.576 248.996a718.01 718.01 0 0 1 5.367 0C708.80161 950.778 797.12261 800.822 797.12261 703.162c0 0 59.284 96.111 79.783 93.637 9.55-1.154 22.093-52.63-16.623-177.017" fill="#000000" p-id="1150"></path><path d="M434.38261 316.917c-27.9 1.24-51.745-30.106-53.24-69.956-1.518-39.877 19.858-73.207 47.764-74.454 27.875-1.224 51.703 30.109 53.218 69.974 1.527 39.877-19.853 73.2-47.742 74.436m206.67-69.956c-1.494 39.85-25.34 71.194-53.24 69.956-27.888-1.238-49.269-34.559-47.742-74.435 1.513-39.868 25.341-71.201 53.216-69.974 27.909 1.247 49.285 34.576 47.767 74.453" fill="#FFFFFF" p-id="1151"></path><path d="M683.94261 368.627c-7.323-17.609-81.062-37.227-172.353-37.227h-0.98c-91.29 0-165.031 19.618-172.352 37.227a6.244 6.244 0 0 0-0.535 2.505c0 1.269 0.393 2.414 1.006 3.386 6.168 9.765 88.054 58.018 171.882 58.018h0.98c83.827 0 165.71-48.25 171.881-58.016a6.352 6.352 0 0 0 1.002-3.395c0-0.897-0.2-1.736-0.531-2.498" fill="#FAAD08" p-id="1152"></path><path d="M467.63161 256.377c1.26 15.886-7.377 30-19.266 31.542-11.907 1.544-22.569-10.083-23.836-25.978-1.243-15.895 7.381-30.008 19.25-31.538 11.927-1.549 22.607 10.088 23.852 25.974m73.097 7.935c2.533-4.118 19.827-25.77 55.62-17.886 9.401 2.07 13.75 5.116 14.668 6.316 1.355 1.77 1.726 4.29 0.352 7.684-2.722 6.725-8.338 6.542-11.454 5.226-2.01-0.85-26.94-15.889-49.905 6.553-1.579 1.545-4.405 2.074-7.085 0.242-2.678-1.834-3.786-5.553-2.196-8.135" fill="#000000" p-id="1153"></path><path d="M504.33261 584.495h-0.967c-63.568 0.752-140.646-7.504-215.286-21.92-6.391 36.262-10.25 81.838-6.936 136.196 8.37 137.384 91.62 223.736 220.118 224.996H506.48461c128.498-1.26 211.748-87.612 220.12-224.996 3.314-54.362-0.547-99.938-6.94-136.203-74.654 14.423-151.745 22.684-215.332 21.927" fill="#FFFFFF" p-id="1154"></path><path d="M323.27461 577.016v137.468s64.957 12.705 130.031 3.91V591.59c-41.225-2.262-85.688-7.304-130.031-14.574" fill="#EB1C26" p-id="1155"></path><path d="M788.09761 432.536s-121.98 40.387-283.743 41.539h-0.962c-161.497-1.147-283.328-41.401-283.744-41.539l-40.854 106.952c102.186 32.31 228.837 53.135 324.598 51.926l0.96-0.002c95.768 1.216 222.4-19.61 324.6-51.924l-40.855-106.952z" fill="#EB1C26" p-id="1156"></path></svg>
+
+            <div class="donation__dropup--content">
+              <img data-src="/images/liuwenxu/qqpay_qrcode.png" alt="qq QR Code" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload"/>
+            </div>
+          </div>
+        
+      
+    
+      
+        
+          <div class="donation__item donation__dropup" title="wechat" aria-label="wechat" data-type="donation">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="35" height="35"><path fill="#8BC34A" d="M18,6C9.2,6,2,12,2,19.5c0,4.3,2.3,8,6,10.5l-2,6l6.3-3.9C14,32.7,16,33,18,33c8.8,0,16-6,16-13.5C34,12,26.8,6,18,6z"/><path fill="#7CB342" d="M20,29c0-6.1,5.8-11,13-11c0.3,0,0.6,0,0.9,0c-0.1-0.7-0.3-1.4-0.5-2c-0.1,0-0.3,0-0.4,0c-8.3,0-15,5.8-15,13c0,1.4,0.3,2.7,0.7,4c0.7,0,1.4-0.1,2.1-0.2C20.3,31.6,20,30.3,20,29z"/><path fill="#CFD8DC" d="M46,29c0-6.1-5.8-11-13-11c-7.2,0-13,4.9-13,11s5.8,11,13,11c1.8,0,3.5-0.3,5-0.8l5,2.8l-1.4-4.8C44.3,35.2,46,32.3,46,29z"/><path fill="#33691E" d="M14,15c0,1.1-0.9,2-2,2s-2-0.9-2-2s0.9-2,2-2S14,13.9,14,15z M24,13c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S25.1,13,24,13z"/><path fill="#546E7A" d="M30,26.5c0,0.8-0.7,1.5-1.5,1.5S27,27.3,27,26.5s0.7-1.5,1.5-1.5S30,25.7,30,26.5z M37.5,25c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5s1.5-0.7,1.5-1.5S38.3,25,37.5,25z"/></svg>
+            <div class="donation__dropup--content">
+              <img data-src="/images/liuwenxu/wxpay_qrcode.png" alt="wechat QR Code" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload"/>
+            </div>
+          </div>
+        
+      
+    
+  </div>
+</div>
+
+
     
 <div class="whoami__gutter"></div>
 <hr class="hr-slash whoami-hr"/>
