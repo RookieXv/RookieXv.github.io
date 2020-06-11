@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>归档 on Java那些事儿</title>
-    <link>http://RookieXv.github.io/archive/</link>
+    <link>https://RookieXv.github.io/archive/</link>
     <description>Recent content in 归档 on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sat, 19 Oct 2019 11:44:14 +0900</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
-        <atom:link href="http://RookieXv.github.io/archive/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://RookieXv.github.io/archive/index.xml" rel="self" type="application/rss+xml" />
     
     
     

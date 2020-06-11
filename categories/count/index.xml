@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>COUNT on Java那些事儿</title>
-    <link>http://RookieXv.github.io/categories/count/</link>
+    <link>https://RookieXv.github.io/categories/count/</link>
     <description>Recent content in COUNT on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -17,7 +17,7 @@
     <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
-        <atom:link href="http://RookieXv.github.io/categories/count/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://RookieXv.github.io/categories/count/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -25,11 +25,11 @@
       
       <item>
         <title>数据库COUNT(*)、COUNT(字段)和COUNT(1)的异同</title>
-        <link>http://RookieXv.github.io/posts/2020/03/count/</link>
+        <link>https://RookieXv.github.io/posts/2020/03/count/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Fri, 20 Dec 2019 12:00:06 +0900</atom:modified>
-        <guid>http://RookieXv.github.io/posts/2020/03/count/</guid>
+        <guid>https://RookieXv.github.io/posts/2020/03/count/</guid>
         <description>在数据库的增删改查操作中，使用最频繁的就是查询操作。而在所有查询操作中，统计数量操作更是经常被用到。</description>
         
         <dc:creator>liuwenxu</dc:creator>

@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Github on Java那些事儿</title>
-    <link>http://RookieXv.github.io/showcase/github/</link>
+    <link>https://RookieXv.github.io/showcase/github/</link>
     <description>Recent content in Github on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sun, 19 Jan 2020 21:04:11 +0900</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
-        <atom:link href="http://RookieXv.github.io/showcase/github/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://RookieXv.github.io/showcase/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -25,11 +25,11 @@
       
       <item>
         <title>Hugo blog</title>
-        <link>http://RookieXv.github.io/showcase/github/hugo_blog_repo/</link>
+        <link>https://RookieXv.github.io/showcase/github/hugo_blog_repo/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>http://RookieXv.github.io/showcase/github/hugo_blog_repo/</guid>
+        <guid>https://RookieXv.github.io/showcase/github/hugo_blog_repo/</guid>
         <description></description>
         
         <dc:creator>Wenxu.Liu</dc:creator>
@@ -43,11 +43,11 @@
       
       <item>
         <title>sc-builder</title>
-        <link>http://RookieXv.github.io/showcase/github/sc_builder_repo/</link>
+        <link>https://RookieXv.github.io/showcase/github/sc_builder_repo/</link>
         <pubDate>Sun, 19 Jan 2020 21:13:42 +0900</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Sun, 19 Jan 2020 21:13:42 +0900</atom:modified>
-        <guid>http://RookieXv.github.io/showcase/github/sc_builder_repo/</guid>
+        <guid>https://RookieXv.github.io/showcase/github/sc_builder_repo/</guid>
         <description></description>
         
         <dc:creator>Wenxu.Liu</dc:creator>

@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>注册中心 on Java那些事儿</title>
-    <link>http://RookieXv.github.io/categories/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/</link>
+    <link>https://RookieXv.github.io/categories/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/</link>
     <description>Recent content in 注册中心 on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sun, 12 Apr 2020 21:48:31 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
-        <atom:link href="http://RookieXv.github.io/categories/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://RookieXv.github.io/categories/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -25,15 +25,15 @@
       
       <item>
         <title>《Nacos系列》之注册中心</title>
-        <link>http://RookieXv.github.io/posts/2020/04/2.nacos-discovery/</link>
+        <link>https://RookieXv.github.io/posts/2020/04/2.nacos-discovery/</link>
         <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Sun, 12 Apr 2020 21:48:31 +0800</atom:modified>
-        <guid>http://RookieXv.github.io/posts/2020/04/2.nacos-discovery/</guid>
+        <guid>https://RookieXv.github.io/posts/2020/04/2.nacos-discovery/</guid>
         <description>Nacos注册中心 服务注册中心本质上是为了解耦服务提供者和服务消费者。对于任何一个微服务，原则上都应</description>
         
         <dc:creator>liuwenxu</dc:creator>
-        <media:content url="http://RookieXv.github.ioimages/liuwenxu/nacos.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://RookieXv.github.ioimages/liuwenxu/nacos.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

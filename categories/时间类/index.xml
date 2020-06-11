@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>时间类 on Java那些事儿</title>
-    <link>http://RookieXv.github.io/categories/%E6%97%B6%E9%97%B4%E7%B1%BB/</link>
+    <link>https://RookieXv.github.io/categories/%E6%97%B6%E9%97%B4%E7%B1%BB/</link>
     <description>Recent content in 时间类 on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -17,7 +17,7 @@
     <lastBuildDate>Mon, 20 Apr 2020 21:48:31 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
-        <atom:link href="http://RookieXv.github.io/categories/%E6%97%B6%E9%97%B4%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://RookieXv.github.io/categories/%E6%97%B6%E9%97%B4%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -25,11 +25,11 @@
       
       <item>
         <title>Java8中计算日期时间差</title>
-        <link>http://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</link>
+        <link>https://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Mon, 20 Apr 2020 21:48:31 +0800</atom:modified>
-        <guid>http://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</guid>
+        <guid>https://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</guid>
         <description>在 Java中，我们要获取一个时间段的天数，我们可以使用下面几种方式： Period @since 1.8 Duration @since 1.8 ChronoUnit @since 1.8 一. 参数声明 1</description>
         
         <dc:creator>liuwenxu</dc:creator>
@@ -69,11 +69,11 @@
       
       <item>
         <title>Java中各种时间类型相互转换</title>
-        <link>http://RookieXv.github.io/posts/2020/04/java%E4%B8%AD%E5%90%84%E7%A7%8D%E6%97%B6%E9%97%B4%E7%B1%BB%E5%9E%8B%E7%9B%B8%E4%BA%92%E8%BD%AC%E6%8D%A2/</link>
+        <link>https://RookieXv.github.io/posts/2020/04/java%E4%B8%AD%E5%90%84%E7%A7%8D%E6%97%B6%E9%97%B4%E7%B1%BB%E5%9E%8B%E7%9B%B8%E4%BA%92%E8%BD%AC%E6%8D%A2/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Mon, 20 Apr 2020 21:48:31 +0800</atom:modified>
-        <guid>http://RookieXv.github.io/posts/2020/04/java%E4%B8%AD%E5%90%84%E7%A7%8D%E6%97%B6%E9%97%B4%E7%B1%BB%E5%9E%8B%E7%9B%B8%E4%BA%92%E8%BD%AC%E6%8D%A2/</guid>
+        <guid>https://RookieXv.github.io/posts/2020/04/java%E4%B8%AD%E5%90%84%E7%A7%8D%E6%97%B6%E9%97%B4%E7%B1%BB%E5%9E%8B%E7%9B%B8%E4%BA%92%E8%BD%AC%E6%8D%A2/</guid>
         <description>Java中各种时间类型相互转换 参数声明： 1 2 3 4 5 6 7 final Date date = new Date(); final Timestamp timestamp = new Timestamp(date.getTime()); final Calendar calendar = Calendar.getInstance(); final Instant instant = Instant.now(); final</description>
         
         <dc:creator>liuwenxu</dc:creator>
@@ -111,11 +111,11 @@
       
       <item>
         <title>获取指定时间内指定星期几的所有日期</title>
-        <link>http://RookieXv.github.io/posts/2020/04/%E6%97%B6%E9%97%B4%E6%AE%B5%E5%91%A8%E5%87%A0%E7%9A%84%E6%97%A5%E6%9C%9F/</link>
+        <link>https://RookieXv.github.io/posts/2020/04/%E6%97%B6%E9%97%B4%E6%AE%B5%E5%91%A8%E5%87%A0%E7%9A%84%E6%97%A5%E6%9C%9F/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Mon, 20 Apr 2020 21:48:31 +0800</atom:modified>
-        <guid>http://RookieXv.github.io/posts/2020/04/%E6%97%B6%E9%97%B4%E6%AE%B5%E5%91%A8%E5%87%A0%E7%9A%84%E6%97%A5%E6%9C%9F/</guid>
+        <guid>https://RookieXv.github.io/posts/2020/04/%E6%97%B6%E9%97%B4%E6%AE%B5%E5%91%A8%E5%87%A0%E7%9A%84%E6%97%A5%E6%9C%9F/</guid>
         <description>输入开始时间，截止时间，星期几，三个参数，获取这两个日期之间指定星期几的日期 一. 参数声明： 1 2 3 LocalDate start</description>
         
         <dc:creator>liuwenxu</dc:creator>

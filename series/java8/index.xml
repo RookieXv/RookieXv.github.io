@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Java8 on Java那些事儿</title>
-    <link>http://RookieXv.github.io/series/java8/</link>
+    <link>https://RookieXv.github.io/series/java8/</link>
     <description>Recent content in Java8 on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -17,7 +17,7 @@
     <lastBuildDate>Mon, 20 Apr 2020 21:48:31 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
-        <atom:link href="http://RookieXv.github.io/series/java8/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://RookieXv.github.io/series/java8/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -25,11 +25,11 @@
       
       <item>
         <title>Java8中计算日期时间差</title>
-        <link>http://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</link>
+        <link>https://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Mon, 20 Apr 2020 21:48:31 +0800</atom:modified>
-        <guid>http://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</guid>
+        <guid>https://RookieXv.github.io/posts/2020/04/java8%E4%B8%AD%E8%AE%A1%E7%AE%97%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4%E5%B7%AE/</guid>
         <description>在 Java中，我们要获取一个时间段的天数，我们可以使用下面几种方式： Period @since 1.8 Duration @since 1.8 ChronoUnit @since 1.8 一. 参数声明 1</description>
         
         <dc:creator>liuwenxu</dc:creator>

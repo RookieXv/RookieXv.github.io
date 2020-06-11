@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Series on Java那些事儿</title>
-    <link>http://RookieXv.github.io/series/</link>
+    <link>https://RookieXv.github.io/series/</link>
     <description>Recent content in Series on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -17,7 +17,7 @@
     <lastBuildDate>Thu, 11 Jun 2020 16:16:59 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
-        <atom:link href="http://RookieXv.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://RookieXv.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -25,11 +25,11 @@
       
       <item>
         <title>Github</title>
-        <link>http://RookieXv.github.io/series/github/</link>
+        <link>https://RookieXv.github.io/series/github/</link>
         <pubDate>Thu, 11 Jun 2020 16:16:59 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
-        <guid>http://RookieXv.github.io/series/github/</guid>
+        <guid>https://RookieXv.github.io/series/github/</guid>
         <description></description>
         
         <dc:creator>Wenxu.Liu</dc:creator>
@@ -43,11 +43,11 @@
       
       <item>
         <title>Collection</title>
-        <link>http://RookieXv.github.io/series/collection/</link>
+        <link>https://RookieXv.github.io/series/collection/</link>
         <pubDate>Sat, 06 Jun 2020 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
-        <guid>http://RookieXv.github.io/series/collection/</guid>
+        <guid>https://RookieXv.github.io/series/collection/</guid>
         <description></description>
         
         <dc:creator>Wenxu.Liu</dc:creator>
@@ -61,11 +61,11 @@
       
       <item>
         <title>Java8</title>
-        <link>http://RookieXv.github.io/series/java8/</link>
+        <link>https://RookieXv.github.io/series/java8/</link>
         <pubDate>Mon, 20 Apr 2020 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
-        <guid>http://RookieXv.github.io/series/java8/</guid>
+        <guid>https://RookieXv.github.io/series/java8/</guid>
         <description></description>
         
         <dc:creator>Wenxu.Liu</dc:creator>
@@ -79,11 +79,11 @@
       
       <item>
         <title>Nacos</title>
-        <link>http://RookieXv.github.io/series/nacos/</link>
+        <link>https://RookieXv.github.io/series/nacos/</link>
         <pubDate>Sun, 12 Apr 2020 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
-        <guid>http://RookieXv.github.io/series/nacos/</guid>
+        <guid>https://RookieXv.github.io/series/nacos/</guid>
         <description></description>
         
         <dc:creator>Wenxu.Liu</dc:creator>
@@ -97,11 +97,11 @@
       
       <item>
         <title>Mybatis Plus</title>
-        <link>http://RookieXv.github.io/series/mybatis-plus/</link>
+        <link>https://RookieXv.github.io/series/mybatis-plus/</link>
         <pubDate>Thu, 02 May 2019 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         
-        <guid>http://RookieXv.github.io/series/mybatis-plus/</guid>
+        <guid>https://RookieXv.github.io/series/mybatis-plus/</guid>
         <description></description>
         
         <dc:creator>Wenxu.Liu</dc:creator>

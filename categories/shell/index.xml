@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>shell on Java那些事儿</title>
-    <link>http://RookieXv.github.io/categories/shell/</link>
+    <link>https://RookieXv.github.io/categories/shell/</link>
     <description>Recent content in shell on Java那些事儿</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -17,7 +17,7 @@
     <lastBuildDate>Tue, 03 Dec 2019 21:48:31 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
-        <atom:link href="http://RookieXv.github.io/categories/shell/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://RookieXv.github.io/categories/shell/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -25,11 +25,11 @@
       
       <item>
         <title>生成项目目录树</title>
-        <link>http://RookieXv.github.io/posts/2019/12/tree/</link>
+        <link>https://RookieXv.github.io/posts/2019/12/tree/</link>
         <pubDate>Tue, 03 Dec 2019 21:48:31 +0800</pubDate>
         <author>mail@liuwenxu.com (Wenxu.Liu)</author>
         <atom:modified>Tue, 03 Dec 2019 21:48:31 +0800</atom:modified>
-        <guid>http://RookieXv.github.io/posts/2019/12/tree/</guid>
+        <guid>https://RookieXv.github.io/posts/2019/12/tree/</guid>
         <description>我们在写博客时，经常看到大佬们会把项目的结构以下面的形式画出来 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19</description>
         
         <dc:creator>liuwenxu</dc:creator>
