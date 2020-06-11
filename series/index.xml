@@ -14,7 +14,7 @@
     <managingEditor>mail@liuwenxu.com (Wenxu.Liu)</managingEditor>
     <webMaster>mail@liuwenxu.com (Wenxu.Liu)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 21:48:31 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 16:16:59 +0800</lastBuildDate>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     
         <atom:link href="http://RookieXv.github.io/series/index.xml" rel="self" type="application/rss+xml" />
@@ -22,6 +22,24 @@
     
     
 
+      
+      <item>
+        <title>Github</title>
+        <link>http://RookieXv.github.io/series/github/</link>
+        <pubDate>Thu, 11 Jun 2020 16:16:59 +0800</pubDate>
+        <author>mail@liuwenxu.com (Wenxu.Liu)</author>
+        
+        <guid>http://RookieXv.github.io/series/github/</guid>
+        <description></description>
+        
+        <dc:creator>Wenxu.Liu</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Collection</title>
